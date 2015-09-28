@@ -23,11 +23,13 @@ module.exports = function(grunt) {
             suffix: '_large_1x',
             quality: 30,
           },{
-            width: 600,
+            width: 555,
+            height: 300,
             suffix: '_medium_1x',
             quality: 30,
           },{
-            width: 1200,
+            width: 1110,
+            height: 600,
             suffix: '_medium_2x',
             quality: 30,
           },{
