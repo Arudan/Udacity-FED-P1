@@ -7,12 +7,12 @@ h1 {
   font-size: 40px;
 }
 
-hr {
-  background-color: #0d6a16;
+hr, footer {
+  background-color: #589e6f;
 }
 
 .green {
-  color: #0d6a16;
+  color: #589e6f;
 }
 
 .cover {
