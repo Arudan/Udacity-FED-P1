@@ -1,6 +1,7 @@
 body {
   font-family: "Oxygen", sans-serif;
   font-weight: 300;
+  padding-bottom: 70px;
 }
 
 h1 {
@@ -11,6 +12,16 @@ hr {
   background-color: #589e6f;
 }
 
+paper-card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+  .col-xs-12 paper-card {
+    margin-left: calc((100% - 555px)/2)!important;
+  }
+}
 .green {
   color: #589e6f;
 }
@@ -24,4 +35,15 @@ hr {
 .logo {
   font-size: 70px;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+  .logo {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}
+
+.card-content{
+  padding: 0 0 5px!important;
 }
